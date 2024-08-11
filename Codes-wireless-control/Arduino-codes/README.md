@@ -1,1 +1,3 @@
-spi-arduino-mega.ino
+1. spi-arduino-mega.ino - Code for Arduino Mega containing only displaying of data received by the client ESP32  from the server ESP32 that is the status of the switches and the joystick horizontal(X) anf verical(Y) positions. The communication between client ESP32 and Arduino Mega is being done using SPI with the Arduino being the SPI master and the ESP32 being the SPI slave.
+
+2. Final_code_v2.ino - Code for Arduino Mega for the SPI communication with the ESP32 to acquire data of switches and joystick. Based on the data received, the code contains commands for according actuation of linear actuators or motors to facilitate the required functioning modes such as seat tilt, seat lift, recline, footrest adjustment or driving.
