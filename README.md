@@ -1,2 +1,2 @@
 # wheelchair-codes-cad
-codes, cad models and circuit schematics for the  wheelchair
+codes, circuit schematics for the  wheelchair
